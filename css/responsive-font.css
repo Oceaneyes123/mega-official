@@ -1,0 +1,293 @@
+/** xsmall **/
+@media (max-width: 575.98px) {
+
+  .footer-text{
+    font-size: 18px;
+  }
+
+  .footer-subtext {
+    font-size: 14px;
+  }
+
+  .r-text{
+    font-size: 15px;
+  }
+  .header-subtext {
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .megaman-text {
+    font-size: 30px;
+  }
+
+
+  .box-main-text {
+    font-size: 30px;
+  }
+
+
+  .box-subtext {
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .img-text {
+    font-size: 17px;
+  }
+
+  .btn-text {
+    font-size: 12px;
+  }
+
+  .course-select-text,
+  .course-select-text-reverse {
+    font-size: 15px;
+  }
+
+
+  .minute-text,
+  .frequency-text,
+  .duration-text,
+  .day-text,
+  .type-text,
+  .time-type-text,
+  .time-hour-text,
+  .time-text {
+    font-size: 15px;
+  }
+
+  .book-text {
+    font-size: 10px;
+    color: black; 
+  }
+
+
+  .time-font {
+    font-size: 15px;
+  }
+
+
+  .see-more {
+    font-size: 20px;
+  }
+
+  .info-text {
+    font-size: 15px;
+  }
+
+
+  .book-info-text {
+    font-size: 20px;
+  }
+
+  #desc-text {
+    font-size: 15px;
+  }
+
+  .title-text {
+    font-size: 20px;
+  }
+
+  .price-text {
+    font-size: 40px;
+    font-weight: 700
+  }
+
+  .next-button-text {
+    font-size: 20px;
+  }
+
+  .proceed-text {
+    font-size: 20px;
+  }
+
+  .request-text {
+    font-size: 15px;
+  }
+
+  .my-book-text,
+  .my-evaluation-text {
+    font-size: 15px;
+  }
+
+  .suggestions-text {
+      font-size: 15px;
+  }
+
+    .coupon-number{
+       font-size: 40px;
+       font-weight: 600;
+    }
+
+    .tab-text{
+      font-size: 15px;
+    }
+
+}
+
+/** small **/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+  .r-text {
+    font-size: 25px;
+  }
+
+  .megaman-text {
+    font-size: 30px;
+  }
+
+  .box-main-text {
+    font-size: 30px;
+  }
+
+  .header-subtext,
+  .box-subtext {
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+
+  .price-text {
+    font-size: 40px;
+    font-weight: 700
+  }
+
+  .img-text {
+    font-size: 30px;
+  }
+
+  .coupon-number {
+    font-size: 60px;
+    font-weight: 600;
+  }
+
+
+
+}
+
+/** from medium **/
+@media (min-width: 768px) {
+
+  .r-text {
+    font-size: 30px
+  }
+
+   .megaman-text {
+     font-size: 25px;
+   }
+
+  .header-subtext {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .box-subtext {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .img-text {
+    font-size: 30px;
+  }
+
+
+  .course-select-text {
+    font-size: 30px;
+  }
+
+  .course-select-text-reverse {
+    font-size: 30px;
+  }
+
+  .title-text {
+    font-size: 30px;
+  }
+
+
+  .minute-text,
+  .book-text,
+  .duration-text,
+  .type-text,
+  .day-text,
+  .frequency-text,
+  .time-type-text,
+  .time-hour-text,
+  .time-text {
+    font-size: 18px;
+  }
+
+  .time-font {
+    font-size: 20 px;
+  }
+
+  .see-more {
+    font-size: 18px;
+  }
+
+  .info-text,
+  .book-info-text {
+    font-size: 18px;
+  }
+
+  .price-text {
+    font-size: 50px;
+    font-weight: 700
+  }
+
+  .next-button-text,
+  .proceed-text {
+    font-size: 18px;
+  }
+
+  .request-text {
+    font-size:18px;
+  }
+
+  .my-book-text,
+  .my-evaluation-text,
+  .my-evaluation-text>button {
+    font-size: 18px;
+  }
+
+  .coupon-number {
+    font-size: 70px;
+    font-weight: 600;
+  }
+
+  .tab-text {
+    font-size: 30px;
+  }
+
+  .footer-text {
+    font-size: 25px;
+  }
+
+   .footer-subtext {
+     font-size: 14px;
+   }
+
+
+}
+
+
+/** large **/
+
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/** xlarge **/
+@media (min-width: 992px) {
+
+  .megaman-text {
+    font-size: 50px;
+  }
+
+  .box-main-text {
+    font-size: 50px;
+  }
+
+  .img-text {
+    font-size: 20px;
+  }
+
+}
