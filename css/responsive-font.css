@@ -1,17 +1,18 @@
 /** xsmall **/
 @media (max-width: 575.98px) {
 
-  .footer-text{
+  .footer-text {
     font-size: 18px;
   }
 
   .footer-subtext {
-    font-size: 14px;
+    font-size: 12px;
   }
 
-  .r-text{
+  .r-text {
     font-size: 15px;
   }
+
   .header-subtext {
     font-size: 20px;
     font-weight: 400;
@@ -59,7 +60,7 @@
 
   .book-text {
     font-size: 10px;
-    color: black; 
+    color: black;
   }
 
 
@@ -112,17 +113,17 @@
   }
 
   .suggestions-text {
-      font-size: 15px;
+    font-size: 15px;
   }
 
-    .coupon-number{
-       font-size: 40px;
-       font-weight: 600;
-    }
+  .coupon-number {
+    font-size: 40px;
+    font-weight: 600;
+  }
 
-    .tab-text{
-      font-size: 15px;
-    }
+  .tab-text {
+    font-size: 15px;
+  }
 
 }
 
@@ -173,9 +174,9 @@
     font-size: 30px
   }
 
-   .megaman-text {
-     font-size: 25px;
-   }
+  .megaman-text {
+    font-size: 25px;
+  }
 
   .header-subtext {
     font-size: 18px;
@@ -241,7 +242,7 @@
   }
 
   .request-text {
-    font-size:18px;
+    font-size: 18px;
   }
 
   .my-book-text,
@@ -263,9 +264,9 @@
     font-size: 25px;
   }
 
-   .footer-subtext {
-     font-size: 14px;
-   }
+  .footer-subtext {
+    font-size: 12px;
+  }
 
 
 }
