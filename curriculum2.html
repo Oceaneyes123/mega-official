@@ -134,6 +134,23 @@
 
                                             </div>
 
+                                            <script type="module">
+                                                import Swiper from 'https://unpkg.com/swiper/swiper-bundle.esm.browser.min.js'
+
+                                                    var swiper = new Swiper('.swiper-container', {
+                                                        slidesPerView: 8,
+                                                        spaceBetween: 10,
+                                                        centeredSlides: false,
+                                                        width: 1000,
+                                                                                                        
+                                                        pagination: {
+                                                        el: '.swiper-pagination',
+                                                        clickable: true,
+                                                                                
+                                                    },
+                                                    });
+                                                </script>
+
                                             <v-row class="align-center justify-center">
                                                 <v-col cols="11">
 
@@ -741,22 +758,7 @@
                     </v-row>
                 </v-container>
 
-                <script type="module">
-                    import Swiper from 'https://unpkg.com/swiper/swiper-bundle.esm.browser.min.js'
 
-                    var swiper = new Swiper('.swiper-container', {
-                        slidesPerView: 7,
-                        spaceBetween: 10,
-                        centeredSlides: false,
-                        width: 1000,
-                                                                        
-                        pagination: {
-                        el: '.swiper-pagination',
-                        clickable: true,
-                                                
-                    },
-                    });
-                </script>
 
             </div>
 
@@ -875,7 +877,7 @@
                                                     import Swiper from 'https://unpkg.com/swiper/swiper-bundle.esm.browser.min.js'
 
                                                 var swiper = new Swiper('.swiper-container-mobile', {
-                                                    slidesPerView: 7,
+                                                    slidesPerView: 8,
                                                     spaceBetween: 10,
                                                     centeredSlides: false,
                                                     width: 1000,
