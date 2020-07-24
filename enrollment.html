@@ -40,7 +40,7 @@
 
     <body>
 
-        <div class="container-fluid px-0 h-100">
+        <div class="container-fluid px-0 h-100" v-if="isLoaded">
 
             <div w3-include-html="nav.html"></div>
 
@@ -374,6 +374,7 @@
 
 <script>
     new Vue({
+
         el: '#app',
 
 
@@ -405,6 +406,7 @@
             price: '',
             discount: '',
             total: '',
+            isLoaded: false,
 
 
             classTypes: [{
@@ -644,7 +646,15 @@
 
         },
 
+        beforeMount() {
+            console.log('test')
+        },
+
         mounted() {
+
+            this.isLoaded = true
+
+            console.log('mounted')
 
             for (var i = 1; i < 12; i++) {
                 var today = new Date()
@@ -1875,11 +1885,13 @@
 
         },
 
+        vuetify: new Vuetify(),
+
         beforeDestroy() {
             window.removeEventListener('resize', this.getWindowWidth);
         },
 
-        vuetify: new Vuetify(),
+
 
     }).$mount('#app')
 </script>
