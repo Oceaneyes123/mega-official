@@ -38,7 +38,7 @@
 <div id="app">
 
 
-    <body>
+    <body class="d-none">
 
         <div class="container-fluid px-0 h-100" v-if="isLoaded">
 
@@ -674,6 +674,8 @@
 
             this.timeList = []
             this.setTime(6)
+
+            document.getElementsByClassName('d-none')[0].classList.remove('d-none')
 
         },
 

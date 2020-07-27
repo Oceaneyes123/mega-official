@@ -22,7 +22,7 @@
 <div id="app">
 
 
-    <body>
+    <body class="d-none">
 
         <div class="container-fluid px-0 h-100">
 
@@ -91,7 +91,8 @@
 
                                             <v-row class="mb-4">
                                                 <v-col cols="6" md="3" v-for="(level, index) in levelList" :key="index">
-                                                    <v-btn @click="levelSelected = index, levelSummary = level" large
+                                                    <v-btn :depressed="index == levelSelected ? true : false"
+                                                        @click="levelSelected = index, levelSummary = level" large
                                                         class="w-100"
                                                         :color="index == levelSelected ? activeColor : inactiveColor">
                                                         {{level}}
@@ -108,7 +109,8 @@
 
                                             <v-row class="mb-4">
                                                 <v-col cols="4" md="2" v-for="(day, index) in days" :key="index">
-                                                    <v-btn @click="daySelected = index, dateSummary = day" large
+                                                    <v-btn :depressed="index == daySelected ? true : false"
+                                                        @click="daySelected = index, dateSummary = day" large
                                                         class="w-100"
                                                         :color="index == daySelected ? activeColor : inactiveColor">
                                                         {{day}}
@@ -130,7 +132,7 @@
 
                                             <v-row class="mb-4">
                                                 <v-col cols="4" md="2" v-for="(time, index) in timeList" :key="index">
-                                                    <v-btn
+                                                    <v-btn :depressed="timeSummary == time ? true : false"
                                                         @click="timeIndexSelected = index, timeSummary = time, timeClick(time, index)"
                                                         large class="w-100"
                                                         :color="timeSummary == time ? activeColor : inactiveColor">
@@ -267,6 +269,8 @@
 
             this.timeList = []
             this.setTime(10)
+
+            document.getElementsByClassName('d-none')[0].classList.remove('d-none')
 
         },
 
